@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<xs:element name="root">
+<xs:complexType>
+<xs:sequence>
+<xs:element minOccurs='1' maxOccurs="unbounded" ref="dayWiseIternaries"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="dayWiseIternaries">
+<xs:complexType>
+<xs:sequence>
+<xs:element ref="dayNumber"/>
+<xs:element ref="id"/>
+<xs:element ref="dayDate"/>
+<xs:element ref="packageName"/>
+<xs:element ref="dayImage"/>
+<xs:element ref="dayDetails"/>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name="dayNumber" type="xs:integer"/>
+<xs:element name="id" type="xs:string"/>
+<xs:element name="dayDate" type='xs:date'>
+<xs:complexType/>
+</xs:element>
+<xs:element name="packageName" type="xs:string"/>
+<xs:element name="dayImage" type="xs:string"/>
+<xs:complexType/>
+</xs:element>
+<xs:element name="dayDetails" type="xs:string"/>
+</xs:schema>
