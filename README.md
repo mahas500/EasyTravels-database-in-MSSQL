@@ -1,7 +1,7 @@
-#EasyTravels-database-in-MSSQL
+# EasyTravels-database-in-MSSQL
 This repository is for my Advanced Database CA. This is the relational database created in MS-SQL DBMS. 
 
-#Business Scenario
+# Business Scenario
 Easy Travel is a system developed for a Tour packages management company to handle their travel/tour packages. 
 It also provides features for managing and engaging their customers. The system is designed in such a way that every employee 
 of the company will be able to use it and will perform operation they are allowed to. Every employee has a specific role which constraint
@@ -12,7 +12,7 @@ and then enquiry gets entered into the system by employee. Customer can make boo
 based on available packages. Further reports can be generated using the system based on multiple factors like customers booking,
 enquiries, types of packages available etc.
 
-#Business Requirements
+# Business Requirements
 1. Employees should be able to login to the system, and their session should be maintained.
 2. Employees should be able to create holiday/tour packages.
 3. Employees should be able to update package details
